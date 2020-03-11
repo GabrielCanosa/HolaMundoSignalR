@@ -1,0 +1,27 @@
+﻿<br />
+<div class="row text-center">
+    <h3>Sala: <span id="titulo-sala">Loading</span></h3>
+</div>
+<br />
+<div class="row text-center">
+    <div class="col-12">
+        <label>Usuario</label>
+        <input type="text" id="userInput" />
+        <br /><br />
+        <label>Mensaje</label>
+        <input type="text" id="messageInput" />
+        <br /><br />
+        <input type="button" id="connect" value="Conectarse" />
+        <input type="button" id="sendButton" value="Enviar mensaje"/>
+        <br />
+        <hr />
+    </div>
+</div>
+<div class="row text-center">
+    <div class="col-6">
+        <ul id="messagesList"></ul>
+    </div>
+</div>
+
+<script src="~/lib/signalR/signalr.js"></script>
+<script src="~/js/chat.js"></script>
